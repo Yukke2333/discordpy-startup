@@ -20,4 +20,7 @@ async def shingekin(ctx):
 async def Dolick(ctx):
     await ctx.send('( ˙꒳˙  )')
     
+@bot.command()
+async def syobon(ctx):
+    await ctx.send('Terraria1.4まだかな～')
 bot.run(token)
