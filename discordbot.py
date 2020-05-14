@@ -19,4 +19,5 @@ async def shingekin(ctx):
 @bot.command()
 async def Dolick(ctx):
     await ctx.send('( ˙꒳˙  )')
+    
 bot.run(token)
