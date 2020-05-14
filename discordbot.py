@@ -34,5 +34,17 @@ async def sirosuke(ctx):
 @bot.command()
 async def sirosuke2(ctx):
     await ctx.send('(ﾟ∀ﾟ)ｱﾋｬ')
-    
+@bot.command()
+async def Gkge(ctx):
+    await ctx.send('やはりMinecraftは偉大なり')
+@bot.command()
+async def kanane(ctx):
+    await ctx.send('マグニチュード１０の１不可説不可説転乗')
+@bot.command()
+async def raigo(ctx):
+    await ctx.send('これでも一応女子なんでね私。')
+@bot.command()
+async def NASAN(ctx):
+    await ctx.send('流れぶった切ってくスタイル嫌いじゃない:rolling_eyes:')
+
 bot.run(token)
