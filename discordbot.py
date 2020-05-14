@@ -23,4 +23,5 @@ async def Dolick(ctx):
 @bot.command()
 async def syobon(ctx):
     await ctx.send('Terraria1.4まだかな～')
+    
 bot.run(token)
