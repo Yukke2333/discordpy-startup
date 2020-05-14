@@ -27,5 +27,8 @@ async def syobon(ctx):
 @bot.command()
 async def kantoku(ctx):
     await ctx.send('クラスの分散会の時運営「時間余ったし、マジカルバナナしよ」前「ハイジといったらスイス」俺「スイスと言ったらロマンシュ語」次「＼(^o^)／」～別の周～前「フランクフルトといったらドイツ」俺「ドイツといったらヴュルテンベルク」次「＼(^o^)／」次の人ごめんね()')
-                   
+   
+@bot.command()
+async def sirosuke(ctx):
+    await ctx.send('ヽ(ﾟ∀｡)ﾉｳｪ')
 bot.run(token)
