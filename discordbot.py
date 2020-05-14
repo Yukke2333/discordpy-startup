@@ -15,6 +15,8 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def shingekin(ctx):
-    await ctx.send('shingekin is cool.')
-
+    await ctx.send('はい、なります！w')
+@bot.command()
+async def Dolick(ctx):
+    await ctx.send('( ˙꒳˙  )')
 bot.run(token)
