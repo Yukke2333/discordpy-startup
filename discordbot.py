@@ -17,11 +17,15 @@ async def on_command_error(ctx, error):
 async def shingekin(ctx):
     await ctx.send('はい、なります！w')
 @bot.command()
-async def Dolick(ctx):
+async def dolick(ctx):
     await ctx.send('( ˙꒳˙  )')
     
 @bot.command()
 async def syobon(ctx):
     await ctx.send('Terraria1.4まだかな～')
     
+@bot.command()
+async def kantoku(ctx):
+    await ctx.send('クラスの分散会の時運営「時間余ったし、マジカルバナナしよ」前「ハイジといったらスイス」俺「スイスと言ったらロマンシュ語」次「＼(^o^)／」～別の周～前「フランクフルトといったらドイツ」俺「ドイツといったらヴュルテンベルク」次「＼(^o^)／」次の人ごめんね()')
+                   
 bot.run(token)
